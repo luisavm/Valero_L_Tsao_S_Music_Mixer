@@ -1,1 +1,94 @@
-@charset "utf-8"; 
+@charset "utf-8";
+
+div,p,body,header,footer,section,article,nav,h1,h2,h3,h4 {
+margin: 0;
+padding: 0;
+}
+
+img {
+border: none;
+margin: 0;
+padding: 0;
+}
+
+
+body {
+  font-family: 'Anton', Helvetica, Arial, sans-serif;
+  font-family: 'Barlow', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0d0f35;
+}
+
+
+.hidden
+{
+  display: none;
+}
+
+
+.container{
+  margin: 0 auto;
+	width: 100%;
+}
+
+
+.topBar{
+  	margin-top: 40px;
+  	margin-left: 60px;
+    position: relative;
+    flex-direction: flow;
+    justify-content: flex-end;
+  }
+
+#eletronicMu{
+   font-family: 'Anto', Helvetica, Arial, sans-serif;
+   font-size: 50px;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+   letter-spacing: 5px;
+   margin-right: 50px;
+   line-height: 50px;
+
+}
+
+#introduction {
+  font-family: 'Barlow', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+
+}
+
+.electro
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 70px;
+}
+
+.gradientElec
+{
+
+  width: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 20px;
+
+}
+
+.gradientElec img
+{
+  width: 172px;
+  margin-top: 60px;
+  margin-left: 120px;
+}
