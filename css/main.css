@@ -7,8 +7,8 @@ padding: 0;
 
 img {
 border: none;
-margin: 0;
-padding: 0;
+/*margin: 0;*/
+/*padding: 0;*/
 }
 
 
@@ -29,16 +29,16 @@ body {
 
 .container{
   margin: 0 auto;
-	width: 100%;
+	/*width: 100%;*/
 }
 
 
 .topBar{
   	margin-top: 40px;
-  	margin-left: 60px;
+  	/*margin-left: 60px;*/
     position: relative;
-    flex-direction: flow;
-    justify-content: flex-end;
+    /*flex-direction: flow;*/
+    /*justify-content: flex-end;*/
   }
 
 #eletronicMu{
@@ -48,19 +48,19 @@ body {
    padding: 10px;
    text-align: center;
    letter-spacing: 5px;
-   margin-right: 50px;
+   /*margin-right: 50px;*/
    line-height: 50px;
 
 }
 
-#introduction {
+#intro {
   font-family: 'Barlow', Helvetica, Arial, sans-serif;
   font-size: 22px;
   color: #fff;
   text-align: center;
   line-height: 30px;
   margin-top: 10px;
-  margin-right: 60px;
+  /*margin-right: 60px;*/
   margin-bottom: 20px;
 
 }
@@ -69,26 +69,34 @@ body {
 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 70px;
+  justify-content: space-evenly;
+  /*width: 100%;*/
 }
 
-.gradientElec
+.elecTrack
 {
 
-  width: 300px;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-left: 20px;
+  /*width: 300px;*/
+  /*position: relative;*/
+  /*display: flex;*/
+  /*flex-direction: row;*/
+  /*justify-content: space-between;*/
+  /*margin-left: 20px;*/
 
 }
 
-.gradientElec img
+.elecTrack img
 {
   width: 172px;
   margin-top: 60px;
-  margin-left: 120px;
+  /*margin-left: 120px;*/
 }
+
+@media screen and (max-width: 600px) {
+  .electro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+  }
+}
+ 
