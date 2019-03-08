@@ -17,4 +17,5 @@ Sandra Tsao
 
 ## Version
 
-0.1 Inspirations and basic folders
+0.1 Inspirations and basic folders\
+0.2 Rough design and functions applied to the webpage
