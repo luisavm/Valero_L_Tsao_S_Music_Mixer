@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Anton%7CBarlow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -15,31 +16,64 @@
 		<section class="topBar">
 			<h1 id="eletronicMu">ELETRONIC MUSIC MIX</h1>
 			<p id="intro"> Explore fabulous electronic tracks</p>
-		</section> 
+		</section>
+
+
 
 		<!--Eletronic 1-->
 		<section class="electro">
-			<h2 class="hidden">Type of Music Mix</h2>
+			<div class="drop-zone">
+				<div id="recordplayerArea">
+					<div id="recordPlayer">
+						<img src="images/record_player.svg" alt="record player base" class="recordBase">
+						<img data-currenttrack="audios/elec2.mp3" src="images/record_place.svg" alt="record" class="record">
+						<!-- #recordplay -->
+						<img data-currenttrack="audios/elec2.mp3" src="images/tune_stick.svg" alt="tune stick" class="tuneStick" id="stop">
+						<!-- #rotatestick -->
+					</div>
+					<div class="overlay">
+					<p id="dropText">Drop Here!</p>
+					</div>
+				</div>
+				<div class="dropzoneMonitor">
+					<!-- .palying -->
+					<div class="bars">
+						<div class="bar no1"></div>
+						<div class="bar no2"></div>
+						<div class="bar no3"></div>
+						<div class="bar no4"></div>
+						<div class="bar no5"></div>
+						<div class="bar no6"></div>
+						<div class="bar no7"></div>
+						<div class="bar no8"></div>
+						<div class="bar no9"></div>
+						<div class="bar no10"></div>
+						<div class="bar no11"></div>
+					</div>
+				</div>
+			</div>
+			
+
+			<h2 class="hidden">Music Mixes</h2>
+			<div id="musicMixes">
 				<!--blue gradient eletronic-->
-				<section class="elecTrack" id="track1">
-					<h3 class="hidden">ELETRONIC MUSIC 1</h3>
-					<img src="images/eletronic_music1.svg" alt="Eletronic music" id="electroMusic">
-				</section>
+				<div class="elecTrack" id="track1">
+					<audio src="audios/elec1.mp3"></audio>
+					<img src="images/eletronic_music1.svg" alt="Eletronic music" id="electroMusic1" class="tracks">
+				</div>
 
-
-				<!--Eletronic 2-->
 				<!-- Purle gradient eletronic  -->
-				<section class="elecTrack" id="track2">
-					<h3 class="hidden">ELETRONIC MUSIC 2</h3>
-					<img src="images/eletronic_music2.svg" alt="Eletronic music" id="electroMusic1" class="electroDance">
-				</section>
+				<div class="elecTrack" id="track2">
+					<audio src="audios/elec2.mp3"></audio>
+					<img src="images/eletronic_music2.svg" alt="Eletronic music" id="electroMusic2" class="tracks">
+				</div>
 
-			    <!--Eletronic 3-->
 				<!--Purle, aqua, pink gradient eletronic-->
-				<section class="elecTrack" id="track3">
-					<h3 class="hidden">ELETRONIC MUSIC 3</h3>
-					<img src="images/eletronic_music3.svg" alt="Eletronic music" id="electroMusic2" class="electroDance">
-				</section>
+				<div class="elecTrack" id="track3">
+					<audio src="audios/elec3.mp3"></audio>
+					<img src="images/eletronic_music3.svg" alt="Eletronic music" id="electroMusic3" class="tracks">
+				</div>
+			</div>
 
 		</section>
 

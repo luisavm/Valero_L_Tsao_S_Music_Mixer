@@ -68,9 +68,293 @@ body {
 .electro
 {
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*width: 100%;*/
+}
+
+.drop-zone
+{
+  margin-left: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+#recordplayerArea
+{
+  width: 220px;
+}
+
+.overlay
+{
+  position: absolute;
+  visibility: hidden;
+  width: 270px;
+  margin-top: -130px;
+  margin-left: 25px;
+}
+
+.hovered
+{
+  display: none;
+}
+
+.overlay p
+{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  color: #fff;
+  font-size: 36px;
+/*  margin-left: 85px;
+  margin-top: 80px;*/
+  -webkit-animation: colored 1s ease infinite alternate;
+}
+
+#recordplayerArea:hover .overlay
+{
+  visibility: visible;
+}
+
+@-webkit-keyframes colored{
+  0%{
+    text-shadow: 3px 3px blue;
+  }
+  10%{
+    text-shadow: 4px 4px orange;
+  }
+  20%{
+    text-shadow: 5px 5px red;
+  }
+  30%{
+    text-shadow: 3px 3px yellow;
+  }
+  40%{
+    text-shadow: 4px 4px blue;
+  }
+  50%{
+    text-shadow: 5px 5px red;
+  }
+  60%{
+    text-shadow: 3px 3px gold;
+  }
+  70%{
+    text-shadow: 4px 4px orange;
+  }
+  80%{
+    text-shadow: 5px 5px red;
+  }
+  90%{
+    text-shadow: 3px 3px blue;
+  }
+  100%{
+    text-shadow: 4px 4px yellow;
+  }
+}
+
+#recordPlayer
+{
+  width: 220px;
+}
+
+#recordBase
+{
+  position: relative;
+  width: 220px;
+}
+
+.record
+{
+  position: absolute;
+  width: 154.5px;
+  margin-left: 14px;
+  margin-top: -185px;
+}
+
+.recordplay
+{
+  /*position: absolute;
+  width: 154.5px;
+  margin-left: 14px;
+  margin-top: 24px;*/
+  -webkit-animation: recordplay 0.3s linear;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes recordplay {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.tuneStick
+{
+  position: absolute;
+  width: 40px;
+  margin-top: -193px;
+  margin-left: 160px;
+}
+
+.stickrotate
+{
+  -webkit-animation: rotate 1s; 
+  transform-origin: 20px 20px;
+  display: inline-block;
+  -webkit-transform: rotate(25deg);
+  /*position: absolute;
+  width: 40px;
+  margin-top: 17px;
+  margin-left: 160px;*/
+}
+
+@-webkit-keyframes rotate {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(25deg);
+  }
+}
+
+.dropzoneMonitor
+{
+  width: 550px;
+  height: 200px;
+  margin-left: 20px;
+  border: 3px solid #89ECDA;
+  border-radius: 0px 30px 0px 0px; 
+  background-color: rgba(225,225,225,0.4);
+}
+
+.bars
+{
+  width: 550px;
+  height: 199px;
+  margin-top: 1px;
+  position: relative;
+  margin-left: 35px;
+}
+
+.bar
+{
+  background: linear-gradient(to bottom, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+  width: 25px;
+  /*height: 30px;*/
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /*i can put animation here to show the effect before js is fixed*/
+
+}
+
+.playing
+{
+  -webkit-animation: playing;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes playing {
+  10%{
+    height: 40px;
+  }
+  30%{
+    height: 100px;
+  }
+  40%{
+    height: 150px;
+  }
+  50%{
+    height: 70px;
+  }
+  70%{
+    height: 10%;
+  }
+  80%{
+    height: 80px;
+  }
+  90%{
+    height: 30px;
+  }
+  100%{
+    height: 0px;
+  }
+}
+
+.no1
+{
+  animation-delay: 0.3s;
+}
+
+.no2
+{
+  animation-delay: 0.5s;
+  left: 45px;
+}
+
+.no3
+{
+  animation-delay: 0.2s;
+  left: 90px;
+}
+
+.no4
+{
+  animation-delay: 0.7s;
+  left: 135px;
+}
+
+.no5
+{
+  animation-delay: 0.1s;
+  left: 180px;
+}
+
+.no6
+{
+  animation-delay: 0.9s;
+  left: 225px;
+}
+
+.no7
+{
+  animation-delay: 0.4s;
+  left: 270px;
+}
+
+.no8
+{
+  animation-delay: 0.5s;
+  left: 315px;
+}
+
+.no9
+{
+  animation-delay: 0.2s;
+  left: 360px;
+}
+
+.no10
+{
+  animation-delay: 0.3s;
+  left: 405px;
+}
+
+.no11
+{
+  animation-delay: 0.9s;
+  left: 450px;
+}
+
+#musicMixes
+{
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  /*width: 100%;*/
 }
 
 .elecTrack
@@ -92,11 +376,11 @@ body {
   /*margin-left: 120px;*/
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .electro{
     display: flex;
     flex-direction: column;
     margin-left: 150px;
   }
-}
+}*/
  
