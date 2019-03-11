@@ -59,9 +59,10 @@ body {
   color: #fff;
   text-align: center;
   line-height: 30px;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-left: 50px;
   /*margin-right: 60px;*/
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 
 }
 
@@ -116,37 +117,37 @@ body {
 
 @-webkit-keyframes colored{
   0%{
-    text-shadow: 3px 3px blue;
+    text-shadow: 3px 3px #161242;
   }
   10%{
-    text-shadow: 4px 4px orange;
+    text-shadow: 4px 4px #dd4ce9;
   }
   20%{
-    text-shadow: 5px 5px red;
+    text-shadow: 5px 5px #c48def;
   }
   30%{
-    text-shadow: 3px 3px yellow;
+    text-shadow: 3px 3px #18d0f7;
   }
   40%{
-    text-shadow: 4px 4px blue;
+    text-shadow: 4px 4px #161242;
   }
   50%{
-    text-shadow: 5px 5px red;
+    text-shadow: 5px 5px #c48def;
   }
   60%{
-    text-shadow: 3px 3px gold;
+    text-shadow: 3px 3px #267fe5;
   }
   70%{
-    text-shadow: 4px 4px orange;
+    text-shadow: 4px 4px #d4088c;
   }
   80%{
-    text-shadow: 5px 5px red;
+    text-shadow: 5px 5px #3db4ae;
   }
   90%{
-    text-shadow: 3px 3px blue;
+    text-shadow: 3px 3px #161242;
   }
   100%{
-    text-shadow: 4px 4px yellow;
+    text-shadow: 4px 4px #dd4ce9;
   }
 }
 
@@ -222,9 +223,12 @@ body {
   width: 550px;
   height: 200px;
   margin-left: 20px;
-  border: 3px solid #89ECDA;
+  /* border: 3px solid #89ECDA; */
+  border: 3px solid #cba6f7;
   border-radius: 0px 30px 0px 0px;
-  background-color: rgba(225,225,225,0.4);
+  /* background-color: rgba(225,225,225,0.4); */
+  background-color: #0f133f;
+
 }
 
 .bars
@@ -238,7 +242,7 @@ body {
 
 .bar
 {
-  background: linear-gradient(to bottom, rgba(254,252,234,1) 0%,rgba(241,218,54,1) 100%);
+  background: linear-gradient(to bottom, #c48def 0%, #8864f4 100%);
   width: 25px;
   /*height: 30px;*/
   border-bottom: 1px solid #fff;
