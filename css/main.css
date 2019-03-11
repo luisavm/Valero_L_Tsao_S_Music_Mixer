@@ -198,7 +198,7 @@ body {
 
 .stickrotate
 {
-  -webkit-animation: rotate 1s; 
+  -webkit-animation: rotate 1s;
   transform-origin: 20px 20px;
   display: inline-block;
   -webkit-transform: rotate(25deg);
@@ -223,7 +223,7 @@ body {
   height: 200px;
   margin-left: 20px;
   border: 3px solid #89ECDA;
-  border-radius: 0px 30px 0px 0px; 
+  border-radius: 0px 30px 0px 0px;
   background-color: rgba(225,225,225,0.4);
 }
 
@@ -382,8 +382,5 @@ body {
     flex-direction: column;
     margin-left: 150px;
   }
-
-}
-
-}
-
+}*/
+ 
