@@ -15,7 +15,8 @@
 		<!--Introduction-->
 		<section class="topBar">
 			<h1 id="eletronicMu">ELETRONIC MUSIC MIX</h1>
-			<p id="intro"> Explore fabulous electronic tracks</p>
+			<p id="intro">Drag and drop the icons to the record player!</p>
+			<p id="intro2">Click record stick to restart.</p>
 		</section>
 
 
@@ -26,13 +27,13 @@
 				<div id="recordplayerArea">
 					<div id="recordPlayer">
 						<img src="images/record_player.svg" alt="record player base" class="recordBase">
-						<img data-currenttrack="audios/elec2.mp3" src="images/record_place.svg" alt="record" class="record">
+						<img src="images/record_place.svg" alt="record" class="record">
 						<!-- #recordplay -->
-						<img data-currenttrack="audios/elec2.mp3" src="images/tune_stick.svg" alt="tune stick" class="tuneStick" id="stop">
+						<img src="images/tune_stick.svg" alt="tune stick" class="tuneStick" id="stop">
 						<!-- #rotatestick -->
 					</div>
 					<div class="overlay">
-					<p id="dropText">Drop Here!</p>
+					<p id="dropText">Drop the beat!</p>
 					</div>
 				</div>
 				<div class="dropzoneMonitor">
@@ -57,22 +58,79 @@
 			<h2 class="hidden">Music Mixes</h2>
 			<div id="musicMixes">
 				<!--blue gradient eletronic-->
-				<div class="elecTrack" id="track1">
-					<audio src="audios/elec1.mp3"></audio>
-					<img src="images/eletronic_music1.svg" alt="Eletronic music" id="electroMusic1" class="tracks">
-				</div>
-
+				<audio class="audios beat" id="beat1A" loop><source src="audios/beat1.mp3" type="audio/mp3"></audio>
+				<audio class="audios beat" id="beat2A" loop><source src="audios/beat2.mp3" type="audio/mp3"></audio>
+				<audio class="audios beat" id="beat3A" loop><source src="audios/beat3.mp3" type="audio/mp3"></audio>
+				<audio class="audios melody" id="melody1A" loop><source src="audios/melody1.mp3" type="audio/mp3"></audio>
+				<audio class="audios melody" id="melody2A" loop><source src="audios/melody2.mp3" type="audio/mp3"></audio>
+				<audio class="audios melody" id="melody3A" loop><source src="audios/melody3.mp3" type="audio/mp3"></audio>
+				<audio class="audios effect" id="effect1A" loop><source src="audios/effect1.mp3" type="audio/mp3"></audio>
+				<audio class="audios effect" id="effect2A" loop><source src="audios/effect2.mp3" type="audio/mp3"></audio>
+				<audio class="audios effect" id="effect3A" loop><source src="audios/effect3.mp3" type="audio/mp3"></audio>
+				<audio class="audios voice" id="voice1A" loop><source src="audios/voice1.mp3" type="audio/mp3"></audio>
+				<audio class="audios voice" id="voice2A" loop><source src="audios/voice2.mp3" type="audio/mp3"></audio>
+				<audio class="audios voice" id="voice3A" loop><source src="audios/voice3.mp3" type="audio/mp3"></audio>
+				<div class="beats">
+				<div class="elecTrack" id="beat1">
+					<img src="images/eletronic_music1.svg" alt="Eletronic music">
+				</div> 
 				<!-- Purle gradient eletronic  -->
-				<div class="elecTrack" id="track2">
-					<audio src="audios/elec2.mp3"></audio>
-					<img src="images/eletronic_music2.svg" alt="Eletronic music" id="electroMusic2" class="tracks">
+				<div class="elecTrack" id="beat2">
+					<!-- <audio src="audios/elec2.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music2.svg" alt="Eletronic music">
+				</div>
+				<!--Purle, aqua, pink gradient eletronic-->
+				<div class="elecTrack" id="beat3">
+					<!-- <audio src="audios/elec3.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music3.svg" alt="Eletronic music">
+				</div>
+				</div>
+				<div class="melodies">
+					<div class="elecTrack" id="melody1">
+					<img src="images/eletronic_music1.svg" alt="Eletronic music">
+					</div> 
+				<!-- Purle gradient eletronic  -->
+					<div class="elecTrack" id="melody2">
+					<!-- <audio src="audios/elec2.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music2.svg" alt="Eletronic music">
+					</div>
+				<!--Purle, aqua, pink gradient eletronic-->
+					<div class="elecTrack" id="melody3">
+					<!-- <audio src="audios/elec3.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music3.svg" alt="Eletronic music">
+					</div>
+				</div>
+				<div class="effects">
+					<div class="elecTrack" id="effect1">
+					<img src="images/eletronic_music1.svg" alt="Eletronic music">
+					</div> 
+				<!-- Purle gradient eletronic  -->
+					<div class="elecTrack" id="effect2">
+					<!-- <audio src="audios/elec2.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music2.svg" alt="Eletronic music">
+					</div>
+				<!--Purle, aqua, pink gradient eletronic-->
+					<div class="elecTrack" id="effect3">
+					<!-- <audio src="audios/elec3.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music3.svg" alt="Eletronic music">
+					</div>
+				</div>
+				<div class="voices">
+					<div class="elecTrack" id="voice1">
+					<img src="images/eletronic_music1.svg" alt="Eletronic music">
+					</div> 
+				<!-- Purle gradient eletronic  -->
+					<div class="elecTrack" id="voice2">
+					<!-- <audio src="audios/elec2.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music2.svg" alt="Eletronic music">
+					</div>
+				<!--Purle, aqua, pink gradient eletronic-->
+					<div class="elecTrack" id="voice3">
+					<!-- <audio src="audios/elec3.mp3" class="audios"></audio> -->
+					<img src="images/eletronic_music3.svg" alt="Eletronic music">
+					</div>
 				</div>
 
-				<!--Purle, aqua, pink gradient eletronic-->
-				<div class="elecTrack" id="track3">
-					<audio src="audios/elec3.mp3"></audio>
-					<img src="images/eletronic_music3.svg" alt="Eletronic music" id="electroMusic3" class="tracks">
-				</div>
 			</div>
 
 		</section>
