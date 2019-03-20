@@ -103,25 +103,7 @@
 			e.preventDefault();
 			console.log("you dropped sumpin on me."); 
 			// debugger;
-			
-			let hovered = document.querySelector(".overlay");
-			hovered.classList.add("hovered");
 
-			let dropZone = document.querySelector(".record");
-			dropZone.classList.add("recordplay");
-
-			let tuningStick = document.querySelector(".tuneStick");
-			tuningStick.classList.add("stickrotate");
-
-
-			document.querySelectorAll(".bar").forEach(bar => {
-				bar.classList.add("playing");
-			});
-
-		});
-
-	initDrag();
-	 // melody.play(); voice.play(); effect.play();
 			beat1.addEventListener("dragend", function() {
 				document.getElementById("beat1A").play();
 				});
@@ -158,6 +140,25 @@
 			voice3.addEventListener("dragend", function() {
 				document.getElementById("voice3A").play();
 				});
+			
+			let hovered = document.querySelector(".overlay");
+			hovered.classList.add("hovered");
+
+			let dropZone = document.querySelector(".record");
+			dropZone.classList.add("recordplay");
+
+			let tuningStick = document.querySelector(".tuneStick");
+			tuningStick.classList.add("stickrotate");
+
+			document.querySelectorAll(".bar").forEach(bar => {
+				bar.classList.add("playing");
+			});
+
+		});
+
+	initDrag();
+	 // melody.play(); voice.play(); effect.play();
+			
 	
 
 	function stopPlaying() {
