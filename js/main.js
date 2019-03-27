@@ -106,39 +106,51 @@
 
 			beat1.addEventListener("dragend", function() {
 				document.getElementById("beat1A").play();
+				beat1.classList.add("thisPlaying")
 				});
 			beat2.addEventListener("dragend", function() {
 				document.getElementById("beat2A").play();
+				beat2.classList.add("thisPlaying")
 				});
 			beat3.addEventListener("dragend", function() {
 				document.getElementById("beat3A").play();
+				beat3.classList.add("thisPlaying")
 				});
 			melody1.addEventListener("dragend", function() {
 				document.getElementById("melody1A").play();
+				melody1.classList.add("thisPlaying");
 				});
 			melody2.addEventListener("dragend", function() {
 				document.getElementById("melody2A").play();
+				melody2.classList.add("thisPlaying");
 				});
 			melody3.addEventListener("dragend", function() {
 				document.getElementById("melody3A").play();
+				melody3.classList.add("thisPlaying");
 				});
 			effect1.addEventListener("dragend", function() {
 				document.getElementById("effect1A").play();
+				effect1.classList.add("thisPlaying");
 				});
 			effect2.addEventListener("dragend", function() {
 				document.getElementById("effect2A").play();
+				effect2.classList.add("thisPlaying");
 				});
 			effect3.addEventListener("dragend", function() {
 				document.getElementById("effect3A").play();
+				effect3.classList.add("thisPlaying");
 				});
 			voice1.addEventListener("dragend", function() {
 				document.getElementById("voice1A").play();
+				voice1.classList.add("thisPlaying");
 				});
 			voice2.addEventListener("dragend", function() {
 				document.getElementById("voice2A").play();
+				voice2.classList.add("thisPlaying");
 				});
 			voice3.addEventListener("dragend", function() {
 				document.getElementById("voice3A").play();
+				voice3.classList.add("thisPlaying");
 				});
 			
 			let hovered = document.querySelector(".overlay");
@@ -159,7 +171,7 @@
 	initDrag();
 	 // melody.play(); voice.play(); effect.play();
 			
-	
+	let stopHeartbeat = document.getElementsByClassName("p1");
 
 	function stopPlaying() {
 
@@ -175,6 +187,43 @@
 		document.querySelectorAll(".bar").forEach(bar => {
 			bar.classList.remove("playing");
 		});
+		
+		if (beat1.classList.contains("thisPlaying")) {
+			beat1.classList.remove("thisPlaying");
+		}
+		if (beat2.classList.contains("thisPlaying")) {
+			beat2.classList.remove("thisPlaying");
+		}
+		if (beat3.classList.contains("thisPlaying")) {
+			beat3.classList.remove("thisPlaying");
+		}
+		if (melody1.classList.contains("thisPlaying")) {
+			melody1.classList.remove("thisPlaying");
+		}
+		if (melody2.classList.contains("thisPlaying")) {
+			melody2.classList.remove("thisPlaying");
+		}
+		if (melody3.classList.contains("thisPlaying")) {
+			melody3.classList.remove("thisPlaying");
+		}
+		if (effect1.classList.contains("thisPlaying")) {
+			effect1.classList.remove("thisPlaying");
+		}
+		if (effect2.classList.contains("thisPlaying")) {
+			effect2.classList.remove("thisPlaying");
+		}
+		if (effect3.classList.contains("thisPlaying")) {
+			effect3.classList.remove("thisPlaying");
+		}
+		if (voice1.classList.contains("thisPlaying")) {
+			voice1.classList.remove("thisPlaying");
+		}
+		if (voice2.classList.contains("thisPlaying")) {
+			voice2.classList.remove("thisPlaying");
+		}
+		if (voice3.classList.contains("thisPlaying")) {
+			voice3.classList.remove("thisPlaying");
+		}
 
 	}
 
