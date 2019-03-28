@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="triangle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 154.1 135.9" style="enable-background:new 0 0 154.1 135.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M153.6,135.4c0.1-0.1,0.1-0.2,0-0.3L77.3,0.5c-0.1-0.1-0.1-0.1-0.2-0.1c-0.1,0-0.2,0.1-0.2,0.1l-0.1,0.1h-0.1
-	v0.1L0.6,135l-0.1,0l0,0l0,0.1c-0.1,0.1,0,0.2,0,0.3c0.1,0.1,0.1,0.1,0.2,0.1h152.6C153.5,135.5,153.6,135.5,153.6,135.4z M76.7,1.9
-	l0.2,89.7L1.6,134.4L76.7,1.9z M1.7,135l75.4-42.9l75,42.9H1.7z M77.5,91.6l-0.2-90l75.4,133L77.5,91.6z"/>
+<path class="st0" d="M138.8,121.3c0.1-0.1,0.1-0.2,0-0.2L77.2,12.6c-0.1-0.1-0.1-0.1-0.2-0.1s-0.2,0.1-0.2,0.1l-0.1,0.1h-0.1v0.1
+	L15.4,121h-0.1l0,0v0.1c-0.1,0.1,0,0.2,0,0.2c0.1,0.1,0.1,0.1,0.2,0.1h123C138.7,121.4,138.8,121.4,138.8,121.3z M76.8,13.7L76.9,86
+	l-60.7,34.5L76.8,13.7z M16.3,121l60.8-34.6l60.5,34.6H16.3z M77.4,86l-0.2-72.6L138,120.7L77.4,86z"/>
 </svg>
