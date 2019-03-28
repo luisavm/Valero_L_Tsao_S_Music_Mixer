@@ -381,15 +381,122 @@ body {
 {
   display: flex;
   flex-direction: row;
-  margin-left: 10%;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
+  width: 320px;
 }
 
-.elecTrack img
+#beat1, #beat2, #beat3
 {
-  width: 60%;
+  background: url(../images/eletronic_music1.svg) no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-right: 10%;
+}
+
+#melody1, #melody2, #melody3
+{
+  background: url(../images/eletronic_music2.svg) no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-right: 10%;
+}
+
+#effect1, #effect2, #effect3
+{
+  background: url(../images/eletronic_music3.svg) no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-right: 10%;
+}
+
+#voice1, #voice2, #voice3
+{
+  background: url(../images/eletronic_music4.svg) no-repeat;
+  width: 80px;
+  height: 80px;
+  margin-right: 10%;
+}
+
+.thisPlaying
+{
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+.beats img
+{
+  width: 90%;
   margin-top: 5%;
   margin-left: 5%;
+}
+
+.melodies img
+{
+  width: 85%;
+  margin-left: 8%;
+}
+
+#effect1 img, #effect2 img
+{
+  width: 75%;
+  margin-top: 12%;
+  margin-left: 12%;
+}
+
+#effect3 img
+{
+  width: 85%;
+  margin-top: 2%;
+  margin-left: 7%;
+}
+
+.voices img
+{
+  width: 85%;
+  margin-top: 4%;
+  margin-left: 8%;
+}
+
+.trackTitle
+{
+  border-bottom: 2px solid blue;
+  width: 20%;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
 }
 
 /*@media screen and (max-width: 600px) {
