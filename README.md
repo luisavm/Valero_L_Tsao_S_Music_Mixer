@@ -12,10 +12,11 @@ After having the webpage opened. You can enjoy exploring the website by followin
 
 ## Authors
 
-Luisa Valero
+Luisa Valero\
 Sandra Tsao
 
 ## Version
 
-0.1 Inspirations and basic folders\
-0.2 Rough design and functions applied to the webpage
+1.0 Inspirations and basic folders\
+2.0 Rough design and functions applied to the webpage\
+3.0 Pesponsive feature added to the webpage
