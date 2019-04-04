@@ -7,8 +7,6 @@ padding: 0;
 
 img {
 border: none;
-/*margin: 0;*/
-/*padding: 0;*/
 }
 
 
@@ -29,18 +27,12 @@ body {
 
 .container{
   margin: 0 auto;
-
-	/*width: 100%;*/
 }
 
 
 .topBar{
-  	margin-top: 40px;
-  	/*margin-left: 60px;*/
+  	margin-top: 30px;
     position: relative;
-
-    /*flex-direction: flow;*/
-    /*justify-content: flex-end;*/
   }
 
 #eletronicMu{
@@ -49,9 +41,7 @@ body {
    color: #fff;
    text-align: center;
    letter-spacing: 5px;
-   /*margin-right: 50px;*/
    line-height: 50px;
-
 }
 
 #intro {
@@ -62,9 +52,6 @@ body {
   line-height: 30px;
   margin-top: 2%;
   margin-left: 2%;
-  /*margin-right: 60px;*/
-  /*margin-bottom: 3%;*/
-
 }
 
 #intro2 {
@@ -73,24 +60,21 @@ body {
   color: #fff;
   text-align: center;
   line-height: 10px;
-  margin-top: 2%;
+  margin-top: 10px;
   margin-left: 2%;
-  /*margin-right: 60px;*/
-  margin-bottom: 5%;
-
+  margin-bottom: 20px;
 }
 
 .electro
 {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  /*width: 100%;*/
+  flex-direction: column;
+  width: 100%;
 }
 
 .drop-zone
 {
-  /*margin-left: 1%;*/
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -98,17 +82,17 @@ body {
 #recordplayerArea
 {
   width: 100%;
-  margin-top: 70px;
   z-index: 99;
+  margin-left: 6px;
 }
 
 .overlay
 {
   position: absolute;
   visibility: hidden;
-  width: 30%;
-  margin-top: -17.5%;
-  margin-left: 4.5%;
+  width: 250px;
+  margin-top: 170px;
+  margin-left: 20px;
 }
 
 .hovered
@@ -121,8 +105,6 @@ body {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
   color: #fff;
   font-size: 47px;
-/*  margin-left: 85px;
-  margin-top: 80px;*/
   -webkit-animation: colored 1s ease infinite alternate;
 }
 
@@ -167,33 +149,24 @@ body {
   }
 }
 
-/*#recordPlayer
-{
-  width: 40%;
-}*/
-
 .recordBase
 {
-  position: relative;
-  width: 270%;
+  position: absolute;
+  width: 95%;
   opacity: 0.7;
 }
 
 .record
 {
   position: absolute;
-  width: 23%;
-  margin-left: 1.8%;
-  margin-top: -27%;
+  width: 65%;
+  margin-left: 25px;
+  margin-top: 60px;
   opacity: 0.8;
 }
 
 .recordplay
 {
-  /*position: absolute;
-  width: 154.5px;
-  margin-left: 14px;
-  margin-top: 24px;*/
   -webkit-animation: recordplay 0.3s linear;
   animation-iteration-count: infinite;
 }
@@ -210,9 +183,9 @@ body {
 .tuneStick
 {
   position: absolute;
-  width: 6%;
-  margin-top: -27.8%;
-  margin-left: 23%;
+  width: 55px;
+  margin-top: 75px;
+  margin-left: 72%;
 }
 
 .stickrotate
@@ -221,10 +194,6 @@ body {
   transform-origin: 50% 15%;
   display: inline-block;
   -webkit-transform: rotate(25deg);
-  /*position: absolute;
-  width: 40px;
-  margin-top: 17px;
-  margin-left: 160px;*/
 }
 
 @-webkit-keyframes rotate {
@@ -239,34 +208,25 @@ body {
 .dropzoneMonitor
 {
   position: absolute;
-  width: 35%;
-  height: 35%;
-  margin-top: 20%;
-  /*margin-left: 10%;*/
-  /* border: 3px solid #89ECDA; */
-  /*border: 3px solid #cba6f7;*/
-  /*border-radius: 0px 30px 0px 0px;*/
-  /* background-color: rgba(225,225,225,0.4); */
-  /*background-color: #0f133f;*/
-
+  width: 200px;
+  height: 200px;
+  margin-top: 210px;
+  margin-left: 5px;
 }
 
 .bars
 {
-  width: 35%;
-  height: 40%;
-  margin-top: 3%;
+  width: 180px;
+  height: 110px;
+  margin-top: 1px;
   position: relative;
-  margin-left: 4.5%;
 }
 
 .bar
 {
   background: linear-gradient(to bottom, #c48def 0%, #8864f4 100%);
-  width: 12%;
+  width: 20px;
   margin-left: 10px;
-  /*height: 30px;*/
-  /*border-bottom: 1px solid #fff;*/
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
@@ -318,76 +278,81 @@ body {
 .no2
 {
   animation-delay: 0.5s;
-  left: 22%;
+  left: 20%;
 }
 
 .no3
 {
   animation-delay: 0.2s;
-  left: 44%;
+  left: 40%;
 }
 
 .no4
 {
   animation-delay: 0.7s;
-  left: 66%;
+  left: 60%;
 }
 
 .no5
 {
   animation-delay: 0.1s;
-  left: 88%;
+  left: 80%;
 }
 
 .no6
 {
   animation-delay: 0.9s;
-  left: 110%;
+  left: 100%;
 }
 
 .no7
 {
   animation-delay: 0.4s;
-  left: 132%;
+  left: 120%;
 }
 
 .no8
 {
   animation-delay: 0.5s;
-  left: 154%;
+  left: 140%;
 }
 
 .no9
 {
   animation-delay: 0.2s;
-  left: 176%;
+  left: 160%;
+  visibility: hidden;
 }
 
 .no10
 {
   animation-delay: 0.3s;
-  left: 198%;
+  left: 180%;
+  visibility: hidden;
 }
 
 .no11
 {
   animation-delay: 0.9s;
-  left: 220%;
+  left: 200%;
+  visibility: hidden;
 }
 
 #musicMixes
 {
   display: flex;
   flex-direction: column;
+  margin-top: 360px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .beats, .melodies, .effects, .voices
 {
   display: flex;
   flex-direction: row;
-  margin-top: 1%;
-  margin-bottom: 5%;
   width: 320px;
+  margin-left: 10px;
 }
 
 #beat1, #beat2, #beat3
@@ -498,9 +463,9 @@ body {
 
 .trackTitle
 {
-  /* border-bottom: 2px solid blue; */
+  border-bottom: 2px solid blue; 
   font-weight: bold;
-  width: 20%;
+  width: 100px;
   padding-bottom: 3px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -508,10 +473,408 @@ body {
   letter-spacing: 2px;
 }
 
-/*@media screen and (max-width: 600px) {
-  .electro{
-    display: flex;
-    flex-direction: column;
+@media screen and (min-width: 330px) {
+  .tuneStick
+  {
+    margin-top: 60px;
+    width: 60px;
+    margin-left: 75%;
+  }
+  .recordBase
+  {
+    width: 100%;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 20px;
+    margin-top: 230px;
+  }
+}
+
+@media screen and (min-width: 340px) {
+  .tuneStick
+  {
+    margin-top: 60px;
+  }
+  .dropzoneMonitor
+  {
+    margin-top: 240px;
+  }
+}
+
+@media screen and (min-width: 350px) {
+  .no9
+  {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width: 370px) {
+  .tuneStick
+  {
+    margin-top: 45px;
+  }
+  .overlay
+  {
+    margin-left: 40px;
+  }
+  .no10
+  {
+    visibility: visible;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .tuneStick
+  {
+    width: 65px;
+  }
+  #musicMixes
+  {
+    margin-top: 380px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  #musicMixes
+  {
+    margin-top: 400px;
+  }
+  .tuneStick
+  {
+    width: 70px;
+    margin-top: 35px;
+  }
+  .dropzoneMonitor
+  {
+    margin-top: 260px;
+  }
+  .no11
+  {
+    visibility: visible;
+  }
+}
+
+@media screen and (min-width: 440px) {
+  .tuneStick
+  {
+    width: 70px;
+    margin-top: 35px;
+  }
+  .overlay
+  {
+    margin-left: 50px;
+  }
+  .dropzoneMonitor
+  {
+    margin-top: 260px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .tuneStick
+  {
+    margin-left: 73%;
+  }
+  .overlay
+  {
+    margin-left: 80px;
+  }
+  .record
+  {
+    margin-left: 45px;
+  }
+  .dropzoneMonitor
+  {
+    margin-top: 260px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .record
+  {
+    margin-left: 50px;
+  }
+  .tuneStick
+  {
+    margin-left: 70%;
+  }
+  .overlay
+  {
+    margin-left: 100px;
+  }
+  .dropzoneMonitor
+  {
+    margin-top: 260px;
+    margin-left: 60px;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .record
+  {
+    margin-left: 60px;
+  }
+  .tuneStick
+  {
+    margin-left: 68%;
+  }
+  .overlay
+  {
+    margin-left: 130px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 90px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .record
+  {
+    margin-left: 70px;
+  }
+  .tuneStick
+  {
+    margin-left: 68%;
+  }
+  .overlay
+  {
+    margin-left: 140px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .record
+  {
+    margin-left: 70px;
+  }
+  .tuneStick
+  {
+    margin-left: 67%;
+  }
+  .overlay
+  {
+    margin-left: 170px;
+  }
+  .dropzoneMonitor
+  {
     margin-left: 150px;
   }
+}
+
+@media screen and (min-width: 700px) {
+  .recordBase
+  {
+    width: 100%;
+  }
+  .record
+  {
+    margin-left: 80px;
+  }
+  .tuneStick
+  {
+    margin-left: 65%;
+  }
+  .overlay
+  {
+    margin-left: 180px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .record
+  {
+    margin-left: 90px;
+  }
+  .tuneStick
+  {
+    margin-left: 64%;
+  }
+  .overlay
+  {
+    margin-left: 220px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .record
+  {
+    margin-left: 110px;
+  }
+  .tuneStick
+  {
+    margin-left: 63%;
+  }
+  .overlay
+  {
+    margin-left: 270px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 250px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .record
+  {
+    margin-left: 120px;
+  }
+  .tuneStick
+  {
+    margin-left: 62%;
+  }
+  .overlay
+  {
+    margin-left: 290px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 270px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .overlay
+  {
+    margin-left: 300px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 290px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .record
+  {
+    margin-left: 130px;
+  }
+  .tuneStick
+  {
+    margin-left: 61%;
+  }
+  .overlay
+  {
+    margin-left: 330px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 310px;
+  }
+}
+
+/*@media screen and (min-width: 1050px) {
+  .record
+  {
+    margin-left: 140px;
+  }
+  .tuneStick
+  {
+    margin-left: 60%;
+  }
+  .overlay
+  {
+    margin-left: 360px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 350px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .record
+  {
+    margin-left: 150px;
+  }
+  .tuneStick
+  {
+    margin-left: 60%;
+  }
+  .overlay
+  {
+    margin-left: 400px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 370px;
+  }
 }*/
+
+@media screen and (min-width: 1030px) {
+  .electro
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  #musicMixes
+  {
+    margin-right: 13%;
+    margin-top: 35px;
+  }
+  #recordplayerArea
+  {
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  .recordBase
+  {
+    width: 400px;
+  }
+  .record
+  {
+    margin-left: 30px;
+    width: 280px;
+  }
+  .tuneStick
+  {
+    margin-left: 300px;
+  }
+  .overlay
+  {
+    margin-left: 50px;
+  }
+  .dropzoneMonitor
+  {
+    margin-left: 200px;
+    margin-top: 280px;
+  }
+  .titlesToL
+  {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    margin-top: 5px;
+  }
+  .titlesToL h2
+  {
+    height: 55px;
+    line-height: 80px;
+    margin-right: 20px;
+  }
+}
