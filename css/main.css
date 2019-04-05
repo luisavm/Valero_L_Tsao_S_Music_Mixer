@@ -50,7 +50,7 @@ body {
   color: #fff;
   text-align: center;
   line-height: 30px;
-  margin-top: 2%;
+  margin-top: 20px;
   margin-left: 2%;
 }
 
@@ -60,9 +60,9 @@ body {
   color: #fff;
   text-align: center;
   line-height: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 2%;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .electro
@@ -77,6 +77,8 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 #recordplayerArea
@@ -345,6 +347,7 @@ body {
   margin-top: 360px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .beats, .melodies, .effects, .voices
@@ -431,49 +434,66 @@ body {
 {
   width: 90%;
   margin-top: 5%;
-  margin-left: 5%;
 }
 
 .melodies img
 {
   width: 85%;
-  margin-left: 8%;
 }
 
 #effect1 img, #effect2 img
 {
   width: 75%;
   margin-top: 12%;
-  margin-left: 12%;
 }
 
 #effect3 img
 {
   width: 85%;
-  margin-top: 2%;
-  margin-left: 7%;
+  margin-top: 4px;
 }
 
 .voices img
 {
   width: 85%;
   margin-top: 4%;
-  margin-left: 8%;
 }
 
 .trackTitle
 {
-  border-bottom: 2px solid blue; 
+  /* border-bottom: 2px solid blue; */
   font-weight: bold;
   width: 100px;
   padding-bottom: 3px;
   margin-top: 10px;
   margin-bottom: 10px;
+  /* margin-left: 10px; */
   font-size: 16px;
   letter-spacing: 2px;
 }
 
+.titlesToL h2
+{
+  text-align: center;
+  width: 300px;
+}
+
 @media screen and (min-width: 330px) {
+
+  #eletronicMu{
+   font-size: 40px;
+   line-height: 50px;
+  }
+
+  #intro {
+    font-size: 20px;
+    padding: 11px;
+  }
+
+  #intro2 {
+    font-size: 16px;
+  }
+
   .tuneStick
   {
     margin-top: 60px;
@@ -488,6 +508,13 @@ body {
   {
     margin-left: 20px;
     margin-top: 230px;
+  }
+
+  .trackTitle
+  {
+    /* margin-left: 100px; */
+    margin-top: 20px;
+    text-align: center;
   }
 }
 
@@ -833,14 +860,19 @@ body {
   }
   #musicMixes
   {
-    margin-right: 13%;
-    margin-top: 35px;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-left: 230px !important;
+  }
+  .drop-zone
+  {
+    width: 400px;
   }
   #recordplayerArea
   {
     width: 400px;
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .recordBase
   {
@@ -862,7 +894,7 @@ body {
   .dropzoneMonitor
   {
     margin-left: 200px;
-    margin-top: 280px;
+    margin-top: 250px;
   }
   .titlesToL
   {
@@ -874,7 +906,9 @@ body {
   .titlesToL h2
   {
     height: 55px;
+    width: 100px !important;
     line-height: 80px;
-    margin-right: 20px;
+    margin-top: 10px;
+    /* margin-right: 20px; */
   }
 }
