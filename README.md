@@ -16,7 +16,7 @@ Drag and drop the icons to the record play. When you click on the tracks, they s
 
 ## Notes
 
-This game was built with HTML5, CSS, and JavaScript. HTML5 runs on Chrome, Firefox, and Safari.
+This interactive music mixer was built with HTML5, CSS, and JavaScript. HTML5 runs on Chrome, Firefox, and Safari.
 
 ## Authors
 
